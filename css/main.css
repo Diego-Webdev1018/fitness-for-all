@@ -1,3 +1,70 @@
-body {
-    background-color: #a4c400;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+:root {
+    /** Colors */
+    --white: #ffffff;
+    --black: #000000;
+    --limerick: #a4c400;
+    --green-munsell: #00a878;
+    --blue-bolt: #00B7FF;
+}
+
+main.main {
+
+}
+
+section.main-banner {
+    padding: 205px 132px 0 132px;
+    background-image: url(/images/main-banner.jpg);
+    background-size: 100%;
+    height: 697px;
+    
+}
+
+h1.main__banner-title {
+    color: var(--limerick);
+    font-family:"Abril Fatface, serif";
+    font-size: 60px;
+}
+
+p.main__banner-paragraph {
+    color: var(--white);
+    font-size: 27px;
+    font-family: roboto, san sans-serif;
+    width: 60%;
+    padding: 12px 0;
+}
+
+         
+a.main__banner-button {
+    background-image: linear-gradient(to right, var(--limerick) 0%, var(--green-munsell) 50%, var(--limerick) 100%);
+    margin: 10px 10px 10px 0;
+    padding: 15px 55px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto';
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #000;
+    border-radius: 25px;
+    display: block;
+    border: 5px solid #00a878;
+    width: 350px;
+}
+
+a.main__banner-button::before {
+    content: url(/images/pointer-icon.svg);
+    margin-right: 10px;
+  }
+
+a.main__banner-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
