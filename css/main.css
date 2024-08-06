@@ -35,12 +35,13 @@ body {
     gap: 4rem;
     font-size: 1.9rem;
     padding-top: 7.5rem;
+    padding-left: 10rem;
 }
-.enlace {
+.anchor-link {
     text-decoration: none;
     color: var(--limerick--);
 }
-.inscribirse-enlace {
+.inscribirse-link {
     text-decoration: none;
     background: linear-gradient(70deg, #A4C400, #00A878);
     color: var(--white--);
@@ -48,16 +49,37 @@ body {
     padding: 1.2rem 3.7rem;
     border-radius: 2rem;
 }
-.acceso-enlace {
+.acceso-link {
     text-decoration: none;
     color: var(--limerick--);
     border: .2rem solid #A4C400;
     padding: 1.2rem 3.7rem;
     border-radius: 2rem;
 }
-.botones {
+.buttons {
     display: flex;
-    padding: 7.9rem;
+    padding: 6.9rem;
     gap: 2rem;
     font-size: 1.6rem;
+}
+
+/*baner*/
+
+
+/*section*/
+
+
+/**Footer creditos*/
+.creditos {
+    background-color: var(--limerick--);
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1rem;
+}
+.autores {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.2rem;
+    color: var(--white--);
+    padding: 20px 0;
 }
