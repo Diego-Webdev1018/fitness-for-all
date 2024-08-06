@@ -5,7 +5,12 @@
     --Blue-Bolt--: #00B7FF;
     --white--: #FFFFFF;
     --Green-Munsell--: #00A878;
-
+    
+    /* valor estandar de las fuentes*/
+    --overall-font-size: 62.5%;
+}
+html {
+    font-size: var(--overall-font-size);
 }
 *{
     padding: 0;
@@ -22,19 +27,37 @@ body {
     justify-content: space-between;
 }
 .logo-container {
-    padding-left: 20px;
+    padding: 3.5rem 6rem;
 }
-ul.enlaces {
+.main-nav {
     list-style: none;
     display: flex;
-    gap: 2rem;
-    padding-top: 29px;
+    gap: 4rem;
+    font-size: 1.9rem;
+    padding-top: 7.5rem;
 }
-a {
+.enlace {
     text-decoration: none;
     color: var(--limerick--);
 }
+.inscribirse-enlace {
+    text-decoration: none;
+    background: linear-gradient(70deg, #A4C400, #00A878);
+    color: var(--white--);
+    border: .2rem solid #A4C400;
+    padding: 1.2rem 3.7rem;
+    border-radius: 2rem;
+}
+.acceso-enlace {
+    text-decoration: none;
+    color: var(--limerick--);
+    border: .2rem solid #A4C400;
+    padding: 1.2rem 3.7rem;
+    border-radius: 2rem;
+}
 .botones {
-    padding-top: 30px;
-    padding-right: 45px;
+    display: flex;
+    padding: 7.9rem;
+    gap: 2rem;
+    font-size: 1.6rem;
 }
