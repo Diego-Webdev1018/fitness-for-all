@@ -1,9 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 :root {
     /** Colors */
     --white: #ffffff;
@@ -13,9 +7,25 @@
     --blue-bolt: #00B7FF;
 }
 
-main.main {
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+  }  
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+/** Main Banner Section */
 
 section.main-banner {
     padding: 205px 132px 0 132px;
@@ -27,7 +37,7 @@ section.main-banner {
 
 h1.main__banner-title {
     color: var(--limerick);
-    font-family:"Abril Fatface, serif";
+    font-family:"Abril Fatface", serif;
     font-size: 60px;
 }
 
