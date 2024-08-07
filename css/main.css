@@ -29,6 +29,12 @@ body {
     padding: 132px;
 }
 
+h1 {
+    color: var(--limerick);
+    font-family:"Abril Fatface", serif;
+    font-size: 60px;
+}
+
 h2 {
     font-size: 25px;
     font-family: 'Roboto';
@@ -46,12 +52,6 @@ p {
 section.main-banner-section {
     background-image: url(/images/main-banner.jpg);
     background-size: cover;  
-}
-
-h1.main__banner-title {
-    color: var(--limerick);
-    font-family:"Abril Fatface", serif;
-    font-size: 60px;
 }
 
 p.main__banner-paragraph {
