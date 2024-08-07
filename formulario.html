@@ -30,43 +30,66 @@
             <div class="logo-container">
                 <img src="./images/f4a-logo.svg" alt="F4A">
             </div>
-            <nav>
-            <ul class="main-nav">
-                <li>
-                    <a href="#" class="anchor-link">
-                        Ejercicios para tu rutina diaria
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="anchor-link">
-                        Alimentacion para tu dia a dia
-                    </a>
-                </li>
-            </ul>
-            </nav>
             <div class="buttons">
-                <div>
-                    <a href="#" class="inscribirse-link">
-                        Inscribirse 
-                    </a>
-                </div>
-
                 <div>
                     <a href="#" class="acceso-link">
                         Acceso
                     </a>
                 </div>
             </div>
-          </div>
+        </div>
     </header>
     
     <main class="main">
 
-        <section class="main-banner">Banner principal</section>
+        <section >
+            <img src="./images/images-del-formulario.png" alt="img-form" class="main-banner">
+        </section>
         
-        <section class="exercices">Sección para ejercicios</section>
-        
-        <section class="meals">Sección para alimentación</section>
+        <div class="registro">
+            <h1 class="text-form">Formulario de Registro</h1>
+            <h2 class="text-form">
+                *Todos los campos son obligatorios
+            </h2>
+            <form action="" class="form">
+                <ul>
+                    <li>
+                        <span>Nombre</span>
+                        <input type="text" autocomplete="given-name">
+                    </li>
+                    <li>
+                        <span>Apellido</span>
+                        <input type="text" autocomplete="family-name">
+                    </li>
+                    <li>
+                        <span>Edad</span>
+                        <input type="number" >
+                    </li>
+                    <li>
+                        <span>Sexo</span>
+                        <select name="Tipo-de-sexo" id="">
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                        </select>
+                    </li>
+                    <li>
+                        <span>Peso en Kg</span>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <span>Estatura en CM</span>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <span>Celular</span>
+                        <input type="number">
+                    </li>
+                    <li>
+                        <button>Enviar</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
         
     </main>
     

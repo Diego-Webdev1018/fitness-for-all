@@ -64,9 +64,24 @@ body {
 }
 
 
-/*main*/
+/*main-formulario*/
 
+img.main-banner {
+    width: 100%;
+}
 
+.text-form {
+    text-align: center;
+}
+.form {
+    border: 1px dotted blue;
+    width: 33%;
+    margin: 5rem auto;
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
 /**Footer creditos*/
 .creditos {
     background-color: var(--limerick--);
