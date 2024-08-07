@@ -73,6 +73,10 @@ ul.meals-days {
     flex-wrap: wrap;
 }
 
+.day-item .meals-button {
+    margin: 10px auto;
+}
+
 img.img-day {
     border: 3px solid var(--limerick);
     border-radius: 50%;
