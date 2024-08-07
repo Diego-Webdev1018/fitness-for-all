@@ -25,14 +25,27 @@ body {
     font-size: 16px;
 }
 
+.container {
+    padding: 132px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: var(--limerick);
+}
+
+p {
+    font-family: 'Roboto';
+    color: var(--black);
+    font-size: 18px;
+}
+
 /** Main Banner Section */
 
-section.main-banner {
-    padding: 205px 132px 0 132px;
+section.main-banner-section {
     background-image: url(/images/main-banner.jpg);
-    background-size: 100%;
-    height: 697px;
-    
+    background-size: cover;  
 }
 
 h1.main__banner-title {
@@ -64,18 +77,68 @@ a.main__banner-button {
     box-shadow: 0 0 20px #000;
     border-radius: 25px;
     display: block;
-    border: 5px solid #00a878;
+    border: 4px solid #a4c400;
     width: 350px;
 }
 
 a.main__banner-button::before {
     content: url(/images/pointer-icon.svg);
     margin-right: 10px;
-  }
+}
 
 a.main__banner-button:hover {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
-  }
+}
+
+img.home-icon {
+    display: block;
+}
+
+
+  /** Meals Section */
  
+  section.meals-section {
+    background-image: url(/images/meals-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 474px;
+}
+
+.container.meals {
+    display: flex;
+    justify-content: end;
+}
+
+.meals-content {
+    flex-basis: 40%;
+}
+
+a.meals-button {
+    background-image: linear-gradient(to right, var(--white) 0%, #dfdee4 50%, var(--white) 100%);
+    margin: 10px 10px 10px 0;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto';
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--limerick);
+    border-radius: 20px;
+    display: block;
+    border: 3px solid #a4c400;
+    width: 200px;
+}
+
+a.meals-button::before {
+    content: url(/images/meals-icon-button.svg);
+    margin-right: 10px;
+}
+
+a.meals-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #a4c400;
+    text-decoration: none;
+}
