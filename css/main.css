@@ -66,12 +66,21 @@ body {
 
 /*main-formulario*/
 
-img.main-banner {
+.main-banner {
     width: 100%;
 }
 
 .text-form {
     text-align: center;
+    color: var(--limerick--);
+    font-size: 3rem;
+    font-family: "Abril Fatface", serif;
+}
+.text-form2{
+    text-align: center;
+    padding-right: 9rem;
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
 }
 .form {
     border: 1px dotted blue;
@@ -79,8 +88,9 @@ img.main-banner {
     margin: 5rem auto;
     text-align: center;
 }
-ul {
+.Registro {
     list-style: none;
+    text-align: left;
 }
 /**Footer creditos*/
 .creditos {
@@ -89,10 +99,8 @@ ul {
     list-style: none;
     justify-content: center;
     gap: 1rem;
-}
-.autores {
     font-family: "Roboto", sans-serif;
     font-size: 2.2rem;
     color: var(--white--);
-    padding: 20px 0;
+    padding: 2rem 0;
 }
