@@ -204,3 +204,74 @@ a.meals-button:hover {
 
 
 
+/*Pagina de Alimentacion*/
+
+/** Meals Banner Section */
+
+section.meals-banner-section {
+    background-image: url(/images/meals-banner-background.jpg);
+    background-size: cover;  
+}
+
+.container.meals-banner {
+    display: flex;
+}
+
+h1.meals-title {
+    flex-basis: 50%;
+}
+
+/** Meals Days Section */
+
+ul.meals-days {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.day-item .meals-button {
+    margin: 10px auto;
+}
+
+img.img-day {
+    border: 3px solid var(--limerick--);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+h2.day {
+    color: var(--black--);
+    padding: 5px 0;
+}
+
+a.meals-button {
+    background-image: linear-gradient(to right, var(--white--) 0%, #dfdee4 50%, var(--white--) 100%);
+    margin: 10px 10px 10px 0;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto';
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--limerick);
+    border-radius: 20px;
+    display: block;
+    border: 3px solid #a4c400;
+    width: 200px;
+}
+
+a.meals-button::before {
+    content: url(/images/meals-icon-button.svg);
+    margin-right: 10px;
+}
+
+a.meals-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #a4c400;
+    text-decoration: none;
+}
+
