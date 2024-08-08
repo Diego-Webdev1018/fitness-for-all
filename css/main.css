@@ -1,3 +1,4 @@
+
 :root{
     /**Colors*/
     --black--: #000000;
@@ -12,7 +13,8 @@
 html {
     font-size: var(--overall-font-size);
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -64,7 +66,125 @@ body {
 }
 
 
-/*main*/
+/** Main Banner Section */
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+}  
+
+.container {
+    padding: 132px;
+}
+
+h1 {
+    color: var(--limerick--);
+    font-family:"Abril Fatface", serif;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: var(--limerick--);
+}
+
+p {
+    font-family: 'Roboto';
+    color: var(--limerick--);
+    font-size: 18px;
+}
+
+section.main-banner-section {
+    background-image: url(/images/main-banner.jpg);
+    background-size: cover;  
+}
+
+p.main__banner-paragraph {
+    color: var(--white--);
+    font-size: 27px;
+    font-family: roboto, san sans-serif;
+    width: 60%;
+    padding: 12px 0;
+}
+a.main__banner-button {
+    background-image: linear-gradient(to right, var(--limerick--) 0%, var(--Green-Munsell--) 50%, var(--limerick--) 100%);
+    margin: 10px 10px 10px 0;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto';
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #000;
+    border-radius: 25px;
+    display: block;
+    border: 4px solid #a4c400;
+    width: 350px;
+}
+
+a.main__banner-button::before {
+    content: url(/images/pointer-icon.svg);
+    margin-right: 10px;
+}
+
+a.main__banner-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+img.home-icon {
+    display: block;
+}
+
+
+  /** Meals Section */
+
+section.meals-section {
+    background-image: url(/images/meals-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 474px;
+}
+
+.container.meals {
+    display: flex;
+    justify-content: end;
+}
+
+.meals-content {
+    flex-basis: 40%;
+}
+
+a.meals-button {
+    background-image: linear-gradient(to right, var(--white--) 0%, #dfdee4 50%, var(--white--) 100%);
+    margin: 10px 10px 10px 0;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto';
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--limerick);
+    border-radius: 20px;
+    display: block;
+    border: 3px solid #a4c400;
+    width: 200px;
+}
+
+a.meals-button::before {
+    content: url(/images/meals-icon-button.svg);
+    margin-right: 10px;
+}
+
+a.meals-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #a4c400;
+    text-decoration: none;
+
+}
 
 
 /**Footer creditos*/
@@ -81,3 +201,6 @@ body {
     color: var(--white--);
     padding: 20px 0;
 }
+
+
+
