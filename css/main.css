@@ -36,6 +36,7 @@ h2 {
     font-size: 25px;
     font-family: 'Roboto';
     color: var(--limerick--);
+    padding: 10px 0;
 }
 
 p {
@@ -59,8 +60,7 @@ p {
     display: flex;
     gap: 4rem;
     font-size: 1.9rem;
-    padding-top: 7.5rem;
-    padding-left: 10rem;
+    padding-top: 6.9rem;
 }
 
 .anchor-link {
@@ -146,6 +146,52 @@ a.main__banner-button:hover {
 
 img.home-icon {
     display: block;
+}
+
+  /** Excercises Section */
+
+section.exercises-section {
+    height: 485px;
+}
+
+.container.exercises {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 132px;
+}
+
+.exercises-content {
+    flex-basis: 40%;
+}
+
+a.exercises-button {
+    background-image: linear-gradient(to right, var(--white--) 0%, #dfdee4 50%, var(--white--) 100%);
+    margin: 10px 10px 10px 0;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto';
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--limerick--);
+    border-radius: 20px;
+    display: block;
+    border: 3px solid #a4c400;
+    width: 200px;
+}
+
+a.exercises-button::before {
+    content: url(/images/exercises-icon.svg);
+    margin-right: 10px;
+}
+
+a.exercises-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #a4c400;
+    text-decoration: none;
+
 }
 
   /** Meals Section */
@@ -252,4 +298,42 @@ img.img-day {
 h2.day {
     color: var(--black--);
     padding: 5px 0;
+}
+
+/** Exercises */
+
+/** Exercises Banner Section */
+
+section.exercises-banner-section {
+    background-image: url(/images/meals-banner-background.jpg);
+    background-size: cover;  
+}
+
+.container.exercises-banner {
+    display: flex;
+}
+
+h1.exercises-title {
+    flex-basis: 50%;
+}
+
+/** Exercises routine Section */
+
+ul.exercises-routine {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.exercise-item .exercises-button {
+    margin: 10px auto;
+}
+
+img.img-day {
+    border: 3px solid var(--limerick--);
+    border-radius: 50%;
+    padding: 10px;
 }
