@@ -79,6 +79,7 @@ p {
 
 .acceso-link {
     text-decoration: none;
+
     color: var(--limerick--);
     border: .2rem solid #A4C400;
     padding: 1.2rem 3.7rem;
@@ -91,6 +92,7 @@ p {
     gap: 2rem;
     font-size: 1.6rem;
 }
+
 
 /** Main Banner Section */
 
