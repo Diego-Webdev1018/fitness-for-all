@@ -36,6 +36,7 @@ h2 {
     font-size: 25px;
     font-family: 'Roboto';
     color: var(--limerick--);
+    padding: 10px 0;
 }
 
 p {
@@ -59,8 +60,7 @@ p {
     display: flex;
     gap: 4rem;
     font-size: 1.9rem;
-    padding-top: 7.5rem;
-    padding-left: 10rem;
+    padding-top: 6.9rem;
 }
 
 .anchor-link {
@@ -150,6 +150,52 @@ img.home-icon {
     display: block;
 }
 
+  /** Excercises Section */
+
+section.exercises-section {
+    height: 485px;
+}
+
+.container.exercises {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 132px;
+}
+
+.exercises-content {
+    flex-basis: 40%;
+}
+
+a.exercises-button {
+    background-image: linear-gradient(to right, var(--white--) 0%, #dfdee4 50%, var(--white--) 100%);
+    margin: 10px 10px 10px 0;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto';
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--limerick--);
+    border-radius: 20px;
+    display: block;
+    border: 3px solid #a4c400;
+    width: 200px;
+}
+
+a.exercises-button::before {
+    content: url(/images/exercises-icon.svg);
+    margin-right: 10px;
+}
+
+a.exercises-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #a4c400;
+    text-decoration: none;
+
+}
+
   /** Meals Section */
 
 section.meals-section {
@@ -194,7 +240,59 @@ a.meals-button:hover {
     background-position: right center; /* change the direction of the change here */
     color: #a4c400;
     text-decoration: none;
+}
+/*main-formulario*/
+.text-form {
+    color: var(--limerick--);
+    font-size: 3rem;
+    font-family: "Abril Fatface", serif;
+}
+.text-form2 {
+    margin-bottom: 3.5rem;
+    color: var(--black--);
+    font-family: "Roboto", sans-serif;
+}
+.main-banner {
+    width: 100%;
+}
+.form-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 33%;
+    margin: 5rem auto;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
 
+label {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    align-self: baseline;
+}
+
+input, select {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    border: .1rem solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 0;
+    font-size: 1.6rem;
+    background: linear-gradient(70deg, #A4C400, #00A878);
+    color: var(--white--);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /**Footer creditos*/
@@ -207,20 +305,23 @@ a.meals-button:hover {
 }
 
 .autores {
+
     font-family: "Roboto", sans-serif;
     font-size: 2.2rem;
     color: var(--white--);
-    padding: 20px 0;
+    padding: 2rem 0;
 }
 
-/** Meals */
+/*Pagina de Alimentacion*/
+
 
 /** Meals Banner Section */
 
 section.meals-banner-section {
     background-image: url(/images/meals-banner-background.jpg);
-    background-size: cover;  
+    background-size: cover;
 }
+
 
 .container.meals-banner {
     display: flex;
@@ -255,3 +356,42 @@ h2.day {
     color: var(--black--);
     padding: 5px 0;
 }
+
+/** Exercises */
+
+/** Exercises Banner Section */
+
+section.exercises-banner-section {
+    background-image: url(/images/meals-banner-background.jpg);
+    background-size: cover;  
+}
+
+.container.exercises-banner {
+    display: flex;
+}
+
+h1.exercises-title {
+    flex-basis: 50%;
+}
+
+/** Exercises routine Section */
+
+ul.exercises-routine {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.exercise-item .exercises-button {
+    margin: 10px auto;
+}
+
+img.img-day {
+    border: 3px solid var(--limerick--);
+    border-radius: 50%;
+    padding: 10px;
+}
+
