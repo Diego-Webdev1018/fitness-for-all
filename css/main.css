@@ -10,69 +10,20 @@
     /* valor estandar de las fuentes*/
     --overall-font-size: 62.5%;
 }
-html {
-    font-size: var(--overall-font-size);
-}
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: var(--overall-font-size);
+}
+
 body {
     font-family: "Abril Fatface", serif;
     font-family: "Roboto", sans-serif;
-}
-/*Menu-Header */
-.contenedor-header {
-    display: flex;
-    justify-content: space-between;
-}
-.logo-container {
-    padding: 3.5rem 6rem;
-}
-.main-nav {
-    list-style: none;
-    display: flex;
-    gap: 4rem;
-    font-size: 1.9rem;
-    padding-top: 7.5rem;
-    padding-left: 10rem;
-}
-.anchor-link {
-    text-decoration: none;
-    color: var(--limerick--);
-}
-.inscribirse-link {
-    text-decoration: none;
-    background: linear-gradient(70deg, #A4C400, #00A878);
-    color: var(--white--);
-    border: .2rem solid #A4C400;
-    padding: 1.2rem 3.7rem;
-    border-radius: 2rem;
-}
-.acceso-link {
-    text-decoration: none;
-    color: var(--limerick--);
-    border: .2rem solid #A4C400;
-    padding: 1.2rem 3.7rem;
-    border-radius: 2rem;
-}
-.buttons {
-    display: flex;
-    padding: 6.9rem;
-    gap: 2rem;
-    font-size: 1.6rem;
-}
-
-
-/** Main Banner Section */
-.abril-fatface-regular {
-    font-family: "Abril Fatface", serif;
-}  
-
-.container {
-    padding: 132px;
 }
 
 h1 {
@@ -89,8 +40,66 @@ h2 {
 
 p {
     font-family: 'Roboto';
-    color: var(--limerick--);
+    color: var(--black--);
     font-size: 18px;
+}
+
+/** Menu-Header */
+
+.contenedor-header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container {
+    padding: 3.5rem 6rem;
+}
+
+.main-nav {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    font-size: 1.9rem;
+    padding-top: 7.5rem;
+    padding-left: 10rem;
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: var(--limerick--);
+}
+
+.inscribirse-link {
+    text-decoration: none;
+    background: linear-gradient(70deg, #A4C400, #00A878);
+    color: var(--white--);
+    border: .2rem solid #A4C400;
+    padding: 1.2rem 3.7rem;
+    border-radius: 2rem;
+}
+
+.acceso-link {
+    text-decoration: none;
+    color: var(--limerick--);
+    border: .2rem solid #A4C400;
+    padding: 1.2rem 3.7rem;
+    border-radius: 2rem;
+}
+
+.buttons {
+    display: flex;
+    padding: 6.9rem;
+    gap: 2rem;
+    font-size: 1.6rem;
+}
+
+/** Main Banner Section */
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+}  
+
+.container {
+    padding: 132px;
 }
 
 section.main-banner-section {
@@ -105,6 +114,7 @@ p.main__banner-paragraph {
     width: 60%;
     padding: 12px 0;
 }
+
 a.main__banner-button {
     background-image: linear-gradient(to right, var(--limerick--) 0%, var(--Green-Munsell--) 50%, var(--limerick--) 100%);
     margin: 10px 10px 10px 0;
@@ -138,7 +148,6 @@ img.home-icon {
     display: block;
 }
 
-
   /** Meals Section */
 
 section.meals-section {
@@ -167,7 +176,7 @@ a.meals-button {
     font-family: 'Roboto';
     transition: 0.5s;
     background-size: 200% auto;
-    color: var(--limerick);
+    color: var(--limerick--);
     border-radius: 20px;
     display: block;
     border: 3px solid #a4c400;
@@ -186,7 +195,6 @@ a.meals-button:hover {
 
 }
 
-
 /**Footer creditos*/
 .creditos {
     background-color: var(--limerick--);
@@ -195,6 +203,7 @@ a.meals-button:hover {
     justify-content: center;
     gap: 1rem;
 }
+
 .autores {
     font-family: "Roboto", sans-serif;
     font-size: 2.2rem;
@@ -202,9 +211,7 @@ a.meals-button:hover {
     padding: 20px 0;
 }
 
-
-
-/*Pagina de Alimentacion*/
+/** Meals */
 
 /** Meals Banner Section */
 
@@ -246,32 +253,3 @@ h2.day {
     color: var(--black--);
     padding: 5px 0;
 }
-
-a.meals-button {
-    background-image: linear-gradient(to right, var(--white--) 0%, #dfdee4 50%, var(--white--) 100%);
-    margin: 10px 10px 10px 0;
-    padding: 10px 0;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: 'Roboto';
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: var(--limerick);
-    border-radius: 20px;
-    display: block;
-    border: 3px solid #a4c400;
-    width: 200px;
-}
-
-a.meals-button::before {
-    content: url(/images/meals-icon-button.svg);
-    margin-right: 10px;
-}
-
-a.meals-button:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #a4c400;
-    text-decoration: none;
-}
-
