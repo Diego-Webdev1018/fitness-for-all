@@ -29,7 +29,7 @@ body {
 h1 {
     color: var(--limerick--);
     font-family:"Abril Fatface", serif;
-    font-size: 60px;
+    font-size: 6rem;
 }
 
 h2 {
@@ -318,7 +318,7 @@ button {
 /** Meals Banner Section */
 
 section.meals-banner-section {
-    background-image: url(/images/meals-banner-background.jpg);
+    background-image: url(/images/meals-banner.jpg);
     background-size: cover;
 }
 
@@ -362,7 +362,7 @@ h2.day {
 /** Exercises Banner Section */
 
 section.exercises-banner-section {
-    background-image: url(/images/meals-banner-background.jpg);
+    background-image: url(/images/exercises-banner.jpg);
     background-size: cover;  
 }
 
@@ -395,3 +395,27 @@ img.img-day {
     padding: 10px;
 }
 
+
+.container-social-media {
+    margin: auto;
+    position: fixed;
+    right: 0;
+    top: 33rem;
+    z-index: auto;
+  }
+  
+ul.social-media {
+    background-color: #000000;
+    border-radius: 1rem 0 0 1rem;
+    float: right;
+    list-style: none; /* Remove bullet points */
+    margin: 0;        /* Remove default margin */
+    padding: 0;       /* Remove default padding */
+    padding: 1rem;
+    right: 0;         /* Align to the right edge of the container */
+    text-align: center;
+  }
+
+li.social-item {
+    padding: .5rem;
+}
