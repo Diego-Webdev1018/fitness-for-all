@@ -33,16 +33,16 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 2.5rem;
     font-family: 'Roboto';
     color: var(--limerick--);
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 
 p {
     font-family: 'Roboto';
     color: var(--black--);
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 /** Menu-Header */
@@ -101,7 +101,7 @@ p {
 }  
 
 .container {
-    padding: 132px;
+    padding: 13rem;
 }
 
 section.main-banner-section {
@@ -111,33 +111,33 @@ section.main-banner-section {
 
 p.main__banner-paragraph {
     color: var(--white--);
-    font-size: 27px;
+    font-size: 2.7rem;
     font-family: roboto, san sans-serif;
     width: 60%;
-    padding: 12px 0;
+    padding: 1.2rem 0;
 }
 
 a.main__banner-button {
     background-image: linear-gradient(to right, var(--limerick--) 0%, var(--Green-Munsell--) 50%, var(--limerick--) 100%);
-    margin: 10px 10px 10px 0;
-    padding: 15px 55px;
+    margin: 1rem 1rem 1rem 0;
+    padding: 1.5rem 5.5rem;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-family: 'Roboto';
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
-    box-shadow: 0 0 20px #000;
-    border-radius: 25px;
+    box-shadow: 0 0 2rem #000;
+    border-radius: 2.5rem;
     display: block;
-    border: 4px solid #a4c400;
-    width: 350px;
+    border: .4rem solid #a4c400;
+    width: 35rem;
 }
 
 a.main__banner-button::before {
     content: url(/images/pointer-icon.svg);
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 a.main__banner-button:hover {
@@ -153,14 +153,14 @@ img.home-icon {
   /** Excercises Section */
 
 section.exercises-section {
-    height: 485px;
+    height: 48.5rem;
 }
 
 .container.exercises {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 132px;
+    padding: 0 13.2rem;
 }
 
 .exercises-content {
@@ -169,24 +169,24 @@ section.exercises-section {
 
 a.exercises-button {
     background-image: linear-gradient(to right, var(--white--) 0%, #dfdee4 50%, var(--white--) 100%);
-    margin: 10px 10px 10px 0;
-    padding: 10px 0;
+    margin: 1rem 1rem 1rem 0;
+    padding: 1rem 0;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-family: 'Roboto';
     transition: 0.5s;
     background-size: 200% auto;
     color: var(--limerick--);
-    border-radius: 20px;
+    border-radius: 2rem;
     display: block;
-    border: 3px solid #a4c400;
-    width: 200px;
+    border: .3rem solid #a4c400;
+    width: 20rem;
 }
 
 a.exercises-button::before {
     content: url(/images/exercises-icon.svg);
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 a.exercises-button:hover {
@@ -202,7 +202,7 @@ section.meals-section {
     background-image: url(/images/meals-background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 474px;
+    height: 47.4rem;
 }
 
 .container.meals {
@@ -216,24 +216,24 @@ section.meals-section {
 
 a.meals-button {
     background-image: linear-gradient(to right, var(--white--) 0%, #dfdee4 50%, var(--white--) 100%);
-    margin: 10px 10px 10px 0;
-    padding: 10px 0;
+    margin: 1rem 1rem 1rem 0;
+    padding: 1rem 0;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-family: 'Roboto';
     transition: 0.5s;
     background-size: 200% auto;
     color: var(--limerick--);
-    border-radius: 20px;
+    border-radius: 2rem;
     display: block;
-    border: 3px solid #a4c400;
-    width: 200px;
+    border: .3rem solid #a4c400;
+    width: 20rem;
 }
 
 a.meals-button::before {
     content: url(/images/meals-icon-button.svg);
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 a.meals-button:hover {
@@ -280,7 +280,7 @@ input, select {
     padding: 1rem;
     font-size: 1.4rem;
     border: .1rem solid #ccc;
-    border-radius: 5px;
+    border-radius: .5rem;
 }
 
 button {
@@ -291,7 +291,7 @@ button {
     background: linear-gradient(70deg, #A4C400, #00A878);
     color: var(--white--);
     border: none;
-    border-radius: 5px;
+    border-radius: .5rem;
     cursor: pointer;
 }
 
@@ -337,23 +337,23 @@ ul.meals-days {
     justify-content: center;
     text-align: center;
     list-style: none;
-    gap: 40px;
+    gap: 4rem;
     flex-wrap: wrap;
 }
 
 .day-item .meals-button {
-    margin: 10px auto;
+    margin: 1rem auto;
 }
 
 img.img-day {
-    border: 3px solid var(--limerick--);
+    border: .3rem solid var(--limerick--);
     border-radius: 50%;
-    padding: 10px;
+    padding: 1rem;
 }
 
 h2.day {
     color: var(--black--);
-    padding: 5px 0;
+    padding: .5rem 0;
 }
 
 /** Exercises */
@@ -380,18 +380,18 @@ ul.exercises-routine {
     justify-content: center;
     text-align: center;
     list-style: none;
-    gap: 40px;
+    gap: 4rem;
     flex-wrap: wrap;
 }
 
 .exercise-item .exercises-button {
-    margin: 10px auto;
+    margin: 1rem auto;
 }
 
 img.img-day {
-    border: 3px solid var(--limerick--);
+    border: .3rem solid var(--limerick--);
     border-radius: 50%;
-    padding: 10px;
+    padding: 1rem;
 }
 
 
