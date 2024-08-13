@@ -30,6 +30,7 @@ h1 {
     color: var(--limerick--);
     font-family:"Abril Fatface", serif;
     font-size: 6rem;
+    margin: 0;
 }
 
 h2 {
@@ -121,7 +122,17 @@ p {
 
 section.main-banner-section {
     background-image: url(/images/main-banner.jpg);
-    background-size: cover;  
+    background-size: cover; 
+    background-position: right 0; 
+}
+
+.main-banner {
+    width: 100%;
+    height: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 p.main__banner-paragraph {
@@ -130,6 +141,7 @@ p.main__banner-paragraph {
     font-family: roboto, san sans-serif;
     width: 60%;
     padding: 1.2rem 0;
+    height: 11rem;
 }
 
 a.main__banner-button {
@@ -268,7 +280,7 @@ a.meals-button:hover {
     font-family: "Roboto", sans-serif;
 }
 .main-banner {
-    width: 100%;
+    width: 80%;
 }
 .form-container {
     background-color: #ffffff;
@@ -442,7 +454,9 @@ li.social-item {
     }
 }
 @media ( max-width: 992px ) {
-    
+    p.main__banner-paragraph {
+        width: 70%;
+    }
 }
 @media ( max-width: 768px ) {
     .buttons {
@@ -451,5 +465,15 @@ li.social-item {
     .menu-hamburguer {
         display: block;
     }
+    .main-banner {
+        width: 90%;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    p.main__banner-paragraph {
+        width: 83%;
+        font-size: 2.2rem;
+    }   
 }
 @media ( max-width: 567px ) {}
