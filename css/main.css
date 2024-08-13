@@ -44,6 +44,7 @@ p {
     font-family: 'Roboto';
     color: var(--black--);
     font-size: 1.8rem;
+    height: 6rem;
 }
 
 .contenedor {
@@ -183,11 +184,11 @@ section.exercises-section {
     height: 48.5rem;
 }
 
-.container.exercises {
+.exercises {
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 13.2rem;
 }
 
 .exercises-content {
@@ -459,12 +460,18 @@ li.social-item {
     }
 }
 @media ( max-width: 768px ) {
+    .contenedor-header {
+        max-width: 90%;
+    }
     .buttons {
         display: none;
     }
     .hamburger-icon {
         display: block;
         height: 4rem;
+    }
+    section.main-banner-section {
+        background-position: -25rem 0; 
     }
     .main-banner {
         width: 90%;
@@ -485,6 +492,19 @@ li.social-item {
         font-size: 1.7rem;
         border-radius: 1.9rem;
         width: 20rem;
+    }
+    .exercises {
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .home-icon {
+        display: none;
+    }
+    a.exercises-button {
+        padding: 1rem 1rem;
+        font-size: 1.7rem;
+        border-radius: 1.7rem;
+        width: 14rem;
     }
     
 }
