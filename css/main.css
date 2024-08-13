@@ -129,7 +129,7 @@ section.main-banner-section {
 
 .main-banner {
     width: 100%;
-    height: 52rem;
+    height: 69.7rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -229,10 +229,11 @@ section.meals-section {
 }
 
 .meals {
-    height: auto;
+    height: 44rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
+    width: 80%;
 }
 
 .meals-content {
@@ -513,6 +514,7 @@ li.social-item {
     }
     .meals {
         width: 90%;
+        height: auto;
     }
     .meals-content {
         flex-basis: 100%;
@@ -526,6 +528,15 @@ li.social-item {
         font-size: 1.7rem;
         border-radius: 1.7rem;
         width: 14rem;
+    }
+    .creditos {
+        flex-direction: column;
+        padding: 3rem 0;
+    }
+    .autores {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0;
     }
     
 }
