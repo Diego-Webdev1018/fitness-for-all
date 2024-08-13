@@ -66,13 +66,11 @@ p {
     align-items: center;
 }
 
-
-
 .main-nav {
+    font-size: 1.9rem;
     list-style: none;
     display: flex;
     gap: 4rem;
-    font-size: 1.9rem;
 }
 
 .anchor-link {
