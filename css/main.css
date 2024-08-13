@@ -65,9 +65,6 @@ p {
     justify-content: space-between;
     align-items: center;
 }
-.logo-container {
-    
-}
 
 
 .main-nav {
@@ -270,6 +267,13 @@ a.meals-button:hover {
     background-position: right center; /* change the direction of the change here */
     color: #a4c400;
     text-decoration: none;
+}
+a.meals-button, 
+a.exercises-button,
+a.main__banner-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*main-formulario*/
 .text-form {
