@@ -420,22 +420,6 @@ li.social-item {
     padding: .5rem;
 }
 
-@media ( max-width: 768px ) {
-    html, body {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-      }
-
-    .container {
-        width: 100%;
-        max-width: 100%;
-        padding: 1.5rem;
-    }
-
-section.main-banner-section {
-    background-image: url(/images/main-banner.jpg);
-    background-size: cover;
-    background-position-x: 66rem;
-}
+@media (max-width: 768px) {
+    
 }
