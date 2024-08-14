@@ -62,16 +62,18 @@ p {
 }
 .contenedor-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 
 .main-nav {
+    font-size: 1.9rem;
     list-style: none;
     display: flex;
     gap: 4rem;
     font-size: 1.9rem;
+    margin-left: 7rem;
 }
 
 .anchor-link {
@@ -101,11 +103,33 @@ p {
     display: flex;
     gap: 2rem;
     font-size: 1.6rem;
+    order: 3;
 }
+ul.menu {
+    position: relative;
+    top: 14.6rem;
+    right: 0;
+    width: 111%;
+    font-size: 1.6rem;
+    padding: 2rem 0;
+    list-style: none;
+    display: none;
+}
+/* Ocultar el checkbox por defecto */
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
 
 .hamburger-icon {
     display: none;
-}
+} 
 
 
 /** Main Banner Section */
@@ -276,6 +300,9 @@ a.main__banner-button {
     align-items: center;
 }
 /*main-formulario*/
+.baner_img {
+    width: 100%;
+}
 .text-form {
     color: var(--limerick--);
     font-size: 3rem;
@@ -339,7 +366,6 @@ button {
 }
 
 .autores {
-
     font-family: "Roboto", sans-serif;
     font-size: 2.2rem;
     color: var(--white--);
@@ -487,6 +513,38 @@ li.social-item {
         display: block;
         height: 4rem;
     }
+    .menu-icon {
+        display: block;
+    }
+    label.menu-icon {
+        position: absolute;
+        top: 48px;
+        right: 45px;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Mostrar el menú cuando el checkbox está marcado */
+    #menu-toggle:checked + .menu{
+        display: flex;
+    }
+    
+    .menu li a {
+        padding: 1rem 3rem;
+        border-bottom: 1px solid #f4f4f4;
+        display: block;
+        text-decoration: none;
+    }
+
+    
     section.main-banner-section {
         background-position: -18rem 0; 
     }
@@ -577,4 +635,5 @@ li.social-item {
         width: 17rem;
     }
 }
+
 @media ( max-width: 567px ) {}
