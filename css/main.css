@@ -307,6 +307,7 @@ a.main__banner-button {
     color: var(--limerick--);
     font-size: 3rem;
     font-family: "Abril Fatface", serif;
+    padding-bottom: 3rem;
 }
 .text-form2 {
     margin-bottom: 3.5rem;
@@ -317,12 +318,8 @@ a.main__banner-button {
     width: 80%;
 }
 .form-container {
-    background-color: #ffffff;
-    padding: 2rem;
-    border-radius: 1rem;
-    width: 33%;
-    margin: 5rem auto;
-    text-align: center;
+    width: 30%;
+    padding: 10rem 0;
 }
 form {
     display: flex;
@@ -503,6 +500,14 @@ li.social-item {
     padding: .5rem;
 }
 
+/**Formulario y acceso*/
+
+section.form-banner-section {
+    height: 30rem;
+    background-image: url(/images/images-del-formulario.png);
+    background-size: cover;
+}
+
 @media ( max-width: 1400px ) {}
 @media ( max-width: 1200px ) {
     ul.main-nav {
@@ -662,6 +667,23 @@ li.social-item {
 
         height: auto;
         padding: 5rem 0;    
+    }
+
+    /** formulario y acceso */
+
+    section.form-banner-section {
+        height: 17rem;
+        background-position: 47rem 0;
+    } 
+    
+    .form-container {
+        width: 90%;
+        padding: 3rem 0;
+    }
+
+    .text-form {
+        text-shadow: none;
+        text-align: center;
     }
 
 }
