@@ -33,7 +33,7 @@
       </div>
         <div class="buttons">
           <div>
-            <a href="acceso.html" class="acceso-link">Acceso</a>
+            <a href="acceso.html" class="acceso-link">Acceder</a>
           </div>
         </div>
       </div>
@@ -49,36 +49,36 @@
       </section>
       <div class="form-container">
         <h1 class="text-form">Formulario de Registro</h1>
-        <h2 class="text-form2">*Todos los campos son obligatorios</h2>
         <form>
-            <label for="nombre">Nombre</label>
+            <label for="nombre">* Nombre</label>
             <input type="text" name="nombre" placeholder="Nombre" required>
 
-            <label for="apellido">Apellido</label>
+            <label for="apellido">* Apellido</label>
             <input type="text" name="apellido" placeholder="Apellido" required>
 
-            <label for="edad">Edad</label>
+            <label for="edad">* Edad</label>
             <input type="number" min="0" name="edad" placeholder="Edad" required>
 
-            <label for="sexo">Sexo</label>
+            <label for="sexo">* Sexo</label>
             <select name="sexo" required>
-                <option value="">Femenino / Masculino</option>
                 <option value="femenino">Femenino</option>
                 <option value="masculino">Masculino</option>
+                <option value="masculino">Otro</option>
             </select>
 
-            <label for="peso">Peso en Kg</label>
+            <label for="peso">* Peso en Kg</label>
             <input type="number" min="0" name="peso" required value="85">
 
-            <label for="estatura">Estatura en CM</label>
+            <label for="estatura">* Estatura en CM</label>
             <input type="number" name="estatura" required value="170">
 
-            <label for="celular">Celular</label>
+            <label for="celular">* Celular</label>
             <input type="tel" name="celular" required>
 
-            <label for="email">Email</label>
+            <label for="email">* Email</label>
             <input type="email" name="Email" required>
-
+            <p>*Campos obligatorios</p>
+            <br>
             <button type="submit">Enviar</button>
         </form>
     </div>

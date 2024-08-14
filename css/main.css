@@ -419,3 +419,14 @@ ul.social-media {
 li.social-item {
     padding: .5rem;
 }
+
+p.contrasena {
+    margin: 2rem;
+}
+
+a.contrasena {
+    display: flex;
+    justify-content: center;
+    height: 33px;
+    padding: 1rem;
+}
