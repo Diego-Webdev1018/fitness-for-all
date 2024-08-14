@@ -495,7 +495,11 @@ li.social-item {
     .menu-icon {
         display: block;
     }
-
+    label.menu-icon {
+        position: absolute;
+        top: 48px;
+        right: 45px;
+    }
     .menu {
         display: none;
         flex-direction: column;
