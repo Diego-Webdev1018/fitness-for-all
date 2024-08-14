@@ -454,19 +454,7 @@ li.social-item {
     padding: .5rem;
 }
 
-<<<<<<< HEAD
 
-@media ( max-width: 768px ) {
-
-    .exercises-content {
-    width: 70%;
-    padding: 4rem;
-    display:block;
-    justify-content: center;
-    
-    }
-    }
-=======
 @media ( max-width: 1400px ) {}
 @media ( max-width: 1200px ) {
     ul.main-nav {
@@ -559,4 +547,14 @@ li.social-item {
     
 }
 @media ( max-width: 567px ) {}
->>>>>>> 85dfa6908ba3a789d2dd12e0aa6e205aafe71252
+
+p.contrasena {
+    margin: 2rem;
+}
+
+a.contrasena {
+    display: flex;
+    justify-content: center;
+    height: 33px;
+    padding: 1rem;
+}
