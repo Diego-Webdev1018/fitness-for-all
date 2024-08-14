@@ -505,6 +505,7 @@ li.social-item {
 @media ( max-width: 768px ) {
     .contenedor-header {
         max-width: 90%;
+        justify-content: space-between;
     }
     .buttons {
         display: none;
