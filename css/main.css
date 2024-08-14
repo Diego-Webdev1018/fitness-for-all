@@ -383,8 +383,11 @@ section.meals-banner-section {
 }
 
 
-.container.meals-banner {
+.meals-banner {
+    height: 42.4rem;
     display: flex;
+    align-items: center;
+    width: 80%;
 }
 
 h1.meals-title {
@@ -392,6 +395,15 @@ h1.meals-title {
 }
 
 /** Meals Days Section */
+
+.meals-days-container{
+
+    height: 90rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 ul.meals-days {
     display: flex;
@@ -634,6 +646,23 @@ li.social-item {
     img.img-day {
         width: 17rem;
     }
-}
 
+    /* Meals landing */
+
+    section.meals-banner-section{
+    background-position: 84rem 0;
+    }
+
+    .meals-banner {
+        width: 90%;
+    }
+
+    .meals-days-container{
+
+        height: auto;
+        padding: 5rem 0;    
+    }
+
+}
 @media ( max-width: 567px ) {}
+
