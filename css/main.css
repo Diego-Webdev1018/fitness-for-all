@@ -62,15 +62,18 @@ p {
 }
 .contenedor-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
+
 
 .main-nav {
     font-size: 1.9rem;
     list-style: none;
     display: flex;
     gap: 4rem;
+    font-size: 1.9rem;
+    margin-left: 7rem;
 }
 
 .anchor-link {
@@ -289,6 +292,13 @@ a.meals-button:hover {
     color: #a4c400;
     text-decoration: none;
 }
+a.meals-button, 
+a.exercises-button,
+a.main__banner-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*main-formulario*/
 .baner_img {
     width: 100%;
@@ -416,8 +426,11 @@ section.exercises-banner-section {
     background-size: cover;  
 }
 
-.container.exercises-banner {
+.exercises-banner {
+    height: 42.4rem;
     display: flex;
+    align-items: center;
+    width: 80%;
 }
 
 h1.exercises-title {
@@ -425,6 +438,14 @@ h1.exercises-title {
 }
 
 /** Exercises routine Section */
+
+.exercises-routine-container {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 ul.exercises-routine {
     display: flex;
@@ -525,7 +546,7 @@ li.social-item {
 
     
     section.main-banner-section {
-        background-position: -25rem 0; 
+        background-position: -18rem 0; 
     }
     .main-banner {
         width: 90%;
@@ -590,6 +611,28 @@ li.social-item {
         font-size: 1.5rem;
         text-align: center;
         padding: 0;
+    }
+
+    /** Exercises */
+
+    section.exercises-banner-section {
+        background-position: 64rem 0;
+    }
+
+    .exercises-banner {
+        width: 90%;
+    }
+    h1.exercises-title {
+        flex-basis: 85%;
+    }
+
+    .exercises-routine-container {
+        height: auto;
+        padding: 5rem 0;
+    }
+
+    img.img-day {
+        width: 17rem;
     }
 }
 
